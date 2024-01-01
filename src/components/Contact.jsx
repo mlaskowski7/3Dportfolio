@@ -17,9 +17,31 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({...form,[name]:value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send('service_a8t183g','template_23bgne8',{ from_name: form.name, to_name: 'Mateusz', from_email: form.email, to_email: 'mlaskowski7@gmail.com', message: form.message}, 'fIgN7XgCENq1yoRib')
+      .then(()=>{
+        setLoading(false);
+        alert('Thank you for sending the message. I will respond as fast as soon as possible.');
+        setForm({
+          name:'',
+          email:'',
+          message:'',
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error);
+        alert('Something went wrong.')
+      })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -27,6 +49,11 @@ const Contact = () => {
 
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact me.</h3>
+        <div className="w-full flex">
+        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+          mlaskowski7@gmail.com
+        </p>
+        </div>
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
