@@ -25,9 +25,10 @@ import cae from "./company/cae.png";
 import pjatk from "./company/pjatk.png"
 import meta from "./company/meta.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import friends from "./friends.png";
+import movies from "./movies.png";
+import ecom from "./ecom.png";
+import macrocalculator from "./macrocalculator.png";
 
 export {
   logo,
@@ -54,7 +55,8 @@ export {
   cae,
   meta,
   pjatk,
-  carrent,
-  jobit,
-  tripguide,
+  movies,
+  friends,
+  ecom,
+  macrocalculator,
 };
