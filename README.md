@@ -1,2 +1,3 @@
 # 3D web portfolio
-3D portoflio website created in React js using Three js.
+My portfolio website created in React js with 3D functionality in Three.js, styled with help of Tailwind CSS.
+Used also EmailJS for contact functionalities.
