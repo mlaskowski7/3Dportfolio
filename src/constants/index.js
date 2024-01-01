@@ -1,8 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -15,10 +13,10 @@ import {
     git,
     figma,
     docker,
+    vlo,
+    cae,
     meta,
-    starbucks,
-    tesla,
-    shopify,
+    pjatk,
     carrent,
     jobit,
     tripguide,
@@ -31,8 +29,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Projects",
+      id: "education",
+      title: "Education/Skills",
     },
     {
       id: "contact",
@@ -42,20 +40,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Back End Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Front End Developer",
+      icon: mobile,
+    },
+    {
+      title: "Full Stack Developer",
+      icon: backend,
     },
   ];
   
@@ -116,55 +110,51 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "CAE Advanced English Certificate",
+      company_name: "Cambridge",
+      icon: cae,
+      iconBg: "#fff",
+      date: "18th June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Certified C1 Level English",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "High School Education",
+      company_name: "VLO im. Ks. J. Poniatowskiego w Warszawie",
+      icon: vlo,
+      iconBg: "#fff",
+      date: "September 2019 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maths",
+        "IT Fundamentals"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
+      title: "Meta Back-End Developer Certificate",
       company_name: "Meta",
       icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      iconBg: "#fff",
+      date: "1st December 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Python Programming",
+        "Django, Django REST Framework",
+        "Git, GitHub",
+        "RESTful APIs",
+      ],
+    },
+    {
+      title: "Bachelor's of Engineering in Computer Science",
+      company_name: "Polish-Japanese Academy of Information Technology",
+      icon: pjatk,
+      iconBg: "#fff",
+      date: "October 2023 - Present",
+      points: [
+        "Java Programming",
+        "SQL",
+        "Microsoft SQL Server",
+        "Computer Science",
       ],
     },
   ];
