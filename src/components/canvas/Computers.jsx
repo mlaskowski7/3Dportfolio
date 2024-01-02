@@ -5,15 +5,15 @@ import CanvasLoader from '../Loader';
 
 const Computers = ({ isMobile }) => {
 
-  const computer = useGLTF('./old_computer/scene.gltf')
+  const computer = useGLTF('./pc1/scene.gltf')
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.6} groundColor="black" />
-      <pointLight intensity={10} />
+      <hemisphereLight intensity={2} groundColor="black" />
+      <pointLight intensity={0} />
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 1 : 2}
+        scale={isMobile ? 0.8 : 1.8}
         position={[0,-3.25,-1.5]}
         
       />
@@ -51,6 +51,7 @@ const ComputersCanvas  = () =>{
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
+          autoRotate
           enableZoom ={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

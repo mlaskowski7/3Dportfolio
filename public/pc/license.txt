@@ -1,0 +1,11 @@
+Model Information:
+* title:	PC Gamer - Low Poly
+* source:	https://sketchfab.com/3d-models/pc-gamer-low-poly-e22df1fd21b5430791491d9f9381813c
+* author:	Alex Martire (https://sketchfab.com/alexmartire)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PC Gamer - Low Poly" (https://sketchfab.com/3d-models/pc-gamer-low-poly-e22df1fd21b5430791491d9f9381813c) by Alex Martire (https://sketchfab.com/alexmartire) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
