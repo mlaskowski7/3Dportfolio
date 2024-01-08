@@ -1,11 +1,17 @@
-# 3D web portfolio
-My portfolio website created in React js with 3D functionality in Three.js, styled with help of Tailwind CSS.
-Used also EmailJS for contact functionalities.
-To run the app, clone the repository, type in terminal:
-```
-npm run dev
-```
-Then navigate to:  http://localhost:5173/vite-deploy/
+# 3D Web Portfolio
+
+Welcome to my portfolio website built using React.js, featuring immersive 3D elements powered by Three.js and styled with the elegance of Tailwind CSS. The contact functionalities are seamlessly integrated using EmailJS.
+
+## Getting Started
+
+To explore the portfolio:
+
+1. Clone the repository.
+2. Open the terminal and run:
+
+   ```bash
+   npm run dev
+
 
 # Screenshots
 ![image](https://github.com/mlaskowski7/3Dportfolio/assets/144243838/0de1ae8d-0bdf-495d-a690-52c170c3fa28)
