@@ -10,6 +10,7 @@ To explore the portfolio:
 2. Open the terminal and run:
 
    ```bash
+   npm install
    npm run dev
 
 
