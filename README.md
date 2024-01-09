@@ -2,6 +2,33 @@
 
 Welcome to my portfolio website built using React.js, featuring immersive 3D elements powered by Three.js and styled with the elegance of Tailwind CSS. The contact functionalities are seamlessly integrated using EmailJS.
 
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+
+
+
+
+## Technologies Used
+
+- **React.js**
+
+- **Three.js**
+  
+- **React Three Fiber**
+
+- **Framer Motion**
+
+- **Tailwind CSS**
+
+- **EmailJS**
+
+- **Vite**
+
+
+
 ## Getting Started
 
 To explore the portfolio:
