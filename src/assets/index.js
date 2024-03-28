@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import react from "./react.png";
+import springLogo from "./springLogo.png";
+import nextLogo from "./nextLogo.png";
 import css from "./tech/css.png";
 import django from "./tech/django.png";
 import java from "./tech/java.png";
@@ -22,9 +25,11 @@ import tailwind from "./tech/tailwind.png";
 
 import vlo from "./company/vlo.png";
 import cae from "./company/cae.png";
-import pjatk from "./company/pjatk.png"
+import pjatk from "./company/pjatk.png";
 import meta from "./company/meta.png";
+import atinea from "./company/atinea.png";
 
+import quiz from "./quiz.png";
 import friends from "./friends.png";
 import movies from "./movies.png";
 import ecom from "./ecom.png";
@@ -32,6 +37,9 @@ import macrocalculator from "./macrocalculator.png";
 
 export {
   logo,
+  nextLogo,
+  springLogo,
+  react,
   backend,
   creator,
   mobile,
@@ -51,10 +59,12 @@ export {
   mysql,
   tailwind,
   spring,
+  atinea,
   vlo,
   cae,
   meta,
   pjatk,
+  quiz,
   movies,
   friends,
   ecom,
