@@ -22,6 +22,9 @@ import reactjs from "./tech/reactjs.png";
 import python from "./tech/python.png";
 import spring from "./tech/spring.png";
 import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import nextjs from "./tech/nextjs.png";
+import postgres from "./tech/postgres.png";
 
 import vlo from "./company/vlo.png";
 import cae from "./company/cae.png";
@@ -51,9 +54,12 @@ export {
   css,
   django,
   java,
+  postgres,
   git,
   html,
+  nextjs,
   javascript,
+  typescript,
   mongodb,
   reactjs,
   mysql,

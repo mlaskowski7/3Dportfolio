@@ -3,8 +3,8 @@ import {
   springLogo,
   nextLogo,
   javascript,
-  html,
-  css,
+  typescript,
+  nextjs,
   reactjs,
   spring,
   tailwind,
@@ -14,6 +14,7 @@ import {
   git,
   java,
   python,
+  postgres,
   vlo,
   cae,
   meta,
@@ -28,12 +29,16 @@ import {
 
 export const navLinks = [
   {
+    id: "home",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },
   {
     id: "education",
-    title: "Education/Skills",
+    title: "Education and Experience",
   },
   {
     id: "projects",
@@ -60,26 +65,37 @@ const skills = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+const technologies1 = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Next JS",
+    icon: nextjs,
+  },
+];
+
+const technologies2 = [
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "Python",
@@ -90,13 +106,16 @@ const technologies = [
     icon: django,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "git",
+    icon: git,
   },
-  // {
-  //   name: "Spring",
-  //   icon: spring,
-  // },
+];
+
+const technologies3 = [
+  {
+    name: "PostgreSQL",
+    icon: postgres,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -104,10 +123,6 @@ const technologies = [
   {
     name: "MySQL",
     icon: mysql,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
@@ -304,4 +319,11 @@ const projects = [
   },
 ];
 
-export { skills, technologies, experiences, projects };
+export {
+  skills,
+  technologies1,
+  technologies2,
+  technologies3,
+  experiences,
+  projects,
+};

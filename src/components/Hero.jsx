@@ -4,9 +4,12 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section
+      id="home"
+      className="relative w-full h-screen mx-auto flex items-center justify-center flex-col gap-10"
+    >
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} max-lg:mt-[202px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-secondary" />
@@ -15,15 +18,19 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi👋, My name is <span className="text-secondary">Mateusz</span>
+            Hi, My name is <span className="text-secondary">Mateusz</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a web dev, working in various back end{" "}
-            <br className="sm:block hidden" /> and front end technologies.
+            I am a web dev, working in various backend{" "}
+            <br className="sm:block hidden" /> and frontend technologies. Feel
+            free to contact me.
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      <button className="bg-secondary px-5 py-4 rounded-lg hover:brightness-90 font-bold">
+        Click to download my CV
+      </button>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
