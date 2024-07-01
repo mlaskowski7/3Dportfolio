@@ -2,7 +2,7 @@ import {
   react,
   springLogo,
   nextLogo,
-  javascript,
+  cSharpIcon,
   typescript,
   nextjs,
   reactjs,
@@ -25,6 +25,9 @@ import {
   ecom,
   atinea,
   quiz,
+  dotnetLogo,
+  cpp_icon,
+  epam,
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +55,10 @@ export const navLinks = [
 
 const skills = [
   {
+    title: ".NET Backend Development",
+    icon: dotnetLogo,
+  },
+  {
     title: "Java Backend Development",
     icon: springLogo,
   },
@@ -67,39 +74,39 @@ const skills = [
 
 const technologies1 = [
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "C#",
+    icon: cSharpIcon,
+  },
+  {
+    name: "C++",
+    icon: cpp_icon,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Next JS",
-    icon: nextjs,
+    name: "Python",
+    icon: python,
   },
 ];
 
 const technologies2 = [
   {
-    name: "Java",
-    icon: java,
+    name: "Tailwind",
+    icon: tailwind,
   },
   {
     name: "Spring",
     icon: spring,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "React",
+    icon: react,
   },
   {
     name: "Django",
@@ -182,6 +189,14 @@ const experiences = [
       "Java Server Pages",
       "PostgreSQL",
     ],
+  },
+  {
+    title: ".NET Online Program",
+    company_name: "Epam",
+    icon: epam,
+    iconBg: "#fff",
+    date: "June 2024 - Present",
+    points: [".NET", "C#", "Entity Framework", "PostgreSQL"],
   },
 ];
 
@@ -269,54 +284,54 @@ const projects = [
     image: movies,
     source_code_link: "https://github.com/mlaskowski7/movies",
   },
-  {
-    name: "Macro Calculator",
-    description:
-      "macroCalculator is my web app, which I use for keeping my diet, it helps me to keep the macros, analyze them and keep track of the goal. I used python, django framework for back end and html,css, javascript for frontend. The site contains video background from pixabay, I also used Chart.js.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html/css/javascript",
-        color: "orange-text-gradient",
-      },
-    ],
+  // {
+  //   name: "Macro Calculator",
+  //   description:
+  //     "macroCalculator is my web app, which I use for keeping my diet, it helps me to keep the macros, analyze them and keep track of the goal. I used python, django framework for back end and html,css, javascript for frontend. The site contains video background from pixabay, I also used Chart.js.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "django",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html/css/javascript",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
 
-    image: macrocalculator,
-    source_code_link: "https://github.com/mlaskowski7/macroCalculator",
-  },
-  {
-    name: "Ecommerce",
-    description:
-      "My sample ecommerce website project with add to cart and checkout functionality. Back-end made in python using django framework. Database is held on SQLite. Front-end made in javascript with help of jQuery, styled with bootstrap4.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html/css/javascript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "bootstrap4",
-        color: "blue-text-gradient",
-      },
-    ],
+  //   image: macrocalculator,
+  //   source_code_link: "https://github.com/mlaskowski7/macroCalculator",
+  // },
+  // {
+  //   name: "Ecommerce",
+  //   description:
+  //     "My sample ecommerce website project with add to cart and checkout functionality. Back-end made in python using django framework. Database is held on SQLite. Front-end made in javascript with help of jQuery, styled with bootstrap4.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "django",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html/css/javascript",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap4",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
 
-    image: ecom,
-    source_code_link: "https://github.com/mlaskowski7/ecomSite",
-  },
+  //   image: ecom,
+  //   source_code_link: "https://github.com/mlaskowski7/ecomSite",
+  // },
 ];
 
 export {

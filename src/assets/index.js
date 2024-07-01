@@ -1,6 +1,4 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -25,12 +23,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import nextjs from "./tech/nextjs.png";
 import postgres from "./tech/postgres.png";
+import dotnetLogo from "./tech/dotnet.png";
+import cSharpIcon from "./tech/cSharpIcon.png";
+import cpp_icon from "./tech/cpp_logo.png";
 
 import vlo from "./company/vlo.png";
 import cae from "./company/cae.png";
 import pjatk from "./company/pjatk.png";
 import meta from "./company/meta.png";
 import atinea from "./company/atinea.png";
+import epam from "./epam.png";
 
 import quiz from "./quiz.png";
 import friends from "./friends.png";
@@ -43,8 +45,7 @@ export {
   nextLogo,
   springLogo,
   react,
-  backend,
-  creator,
+  cSharpIcon,
   mobile,
   web,
   github,
@@ -55,6 +56,7 @@ export {
   django,
   java,
   postgres,
+  cpp_icon,
   git,
   html,
   nextjs,
@@ -62,10 +64,12 @@ export {
   typescript,
   mongodb,
   reactjs,
+  dotnetLogo,
   mysql,
   tailwind,
   spring,
   atinea,
+  epam,
   vlo,
   cae,
   meta,

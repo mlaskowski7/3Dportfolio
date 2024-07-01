@@ -43,11 +43,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-xl leading-[30px]"
       >
-        I am 18 years old student living in Warsaw, Poland. I study Computer
+        I am 19 years old student living in Warsaw, Poland. I study Computer
         Science at PJAIT. Since early age I was interested in computers, now I
         am taking my first steps in IT industry. I am passionate about
-        programming, especially web development and deep learning. Looking for
-        an opportunity to gain my first work experience as a developer.
+        programming, especially web development and deep learning.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
