@@ -28,9 +28,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className="bg-secondary px-5 py-4 rounded-lg hover:brightness-90 font-bold">
-        Click to download my CV
-      </button>
+      <a
+        href="/MateuszLaskowskiResume.pdf"
+        download="MateuszLaskowskiResume.pdf"
+      >
+        <button className="bg-secondary px-5 py-4 rounded-lg hover:brightness-90 font-bold">
+          Click to download my CV
+        </button>
+      </a>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
